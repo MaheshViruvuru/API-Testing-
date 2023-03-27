@@ -1,3 +1,4 @@
+# import pytest
 import requests
 import json
 import jsonpath
@@ -54,8 +55,6 @@ class TestSampleApi:
         res = response.json()
         print(response.status_code, res['job'])
         assert response.status_code == 200
-        headers = response.headers
-        print(headers, len(headers))
 
     def test_update_user_entity(self):
         with open('C:/Users/mahes/PycharmProjects/python-API-Testing/TestData/update_user.json', 'r') as file:
@@ -64,5 +63,26 @@ class TestSampleApi:
         res = response.json()
         print(response.status_code, res['job'])
         assert response.status_code == 200
-        headers = response.headers
-        print(headers, len(headers))
+
+    def test_create_student(self):
+        url = 'https://thetestingworldapi.com/api/studentsDetails'
+        with open('C:/Users/mahes/PycharmProjects/python-API-Testing/TestData/student_data.json', 'r') as file:
+            payload = json.loads(file.read())
+        response = requests.post(url, payload)
+        res = response.json()
+        print(response.status_code)
+        assert response.status_code == 201
+        print(res)
+
+    # @pytest.mark.skip(reason="No proper data provided")
+    def test_upload_image(self):
+        login_url = "https://api.upload.io/v2/accounts/kW15bAd/uploads/binary"
+        with open("C:/Users/mahes/Downloads/WhatsApp Image 2023-03-14 at 10-new.07.47 PM.jpeg", 'rb') as file:
+            payload = file.read()
+
+        response = requests.post(login_url, headers={"Authorization": "Bearer secret_kW15bAd7DEsDcpTEVur4GMNj3t6m"},
+                                 data=payload)
+        print(response.text, response.status_code)
+
+    # accountId : "kW15bAd"
+

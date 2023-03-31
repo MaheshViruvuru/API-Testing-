@@ -1,10 +1,14 @@
-# import pytest
+import pytest
 import requests
 import json
 import jsonpath
+from base_class import *
+
+log = get_logger()
 
 
 class TestSampleApi:
+
     def test_first_api(self):
         response = requests.get('https://reqres.in/api/users?page=2')
         res = response.json()
@@ -12,6 +16,7 @@ class TestSampleApi:
         print(type(res))
         for i in res:
             print(f"{str(i)}: ", res[i])
+            log.info(f"{str(i)}: {res[i]}")
         # for i in range(len(res)):
         #     k = res['entries'][i]['API']
         #     print(k)
@@ -22,6 +27,7 @@ class TestSampleApi:
         print(res)
         email = res["data"]["email"]
         print("email: " + email, ", url: " + res["support"]["url"], "and text: " + res["support"]["text"])
+        log.info(f"email: {email}, url: {res['support']['url']}, and text: {res['support']['text']}")
 
     def test_single_user_not_found(self):
         response = requests.get('https://reqres.in/api/users/23')
@@ -37,6 +43,7 @@ class TestSampleApi:
         json_response = json.loads(response.text)
         new_res = jsonpath.jsonpath(json_response, 'total_pages')
         print(new_res[0])
+        log.info(new_res[0])
 
     def test_create_user(self):
         with open('C:/Users/mahes/PycharmProjects/python-API-Testing/TestData/create_user.json', 'r') as file:
@@ -74,7 +81,7 @@ class TestSampleApi:
         assert response.status_code == 201
         print(res)
 
-    # @pytest.mark.skip(reason="No proper data provided")
+    @pytest.mark.skip(reason="No proper data provided")
     def test_upload_image(self):
         login_url = "https://api.upload.io/v2/accounts/kW15bAd/uploads/binary"
         with open("C:/Users/mahes/Downloads/WhatsApp Image 2023-03-14 at 10-new.07.47 PM.jpeg", 'rb') as file:

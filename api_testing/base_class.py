@@ -1,10 +1,5 @@
 import inspect
 import logging
-import time
-from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
-
-driver = webdriver.Chrome(ChromeDriverManager().install())
 
 
 def get_logger():
@@ -16,11 +11,4 @@ def get_logger():
     logger.addHandler(fil_handler)
     logger.setLevel(logging.DEBUG)
     return logger
-
-
-class BasePage:
-
-    def is_element_present(self, element, timeout=3):
-        time.sleep(timeout)
-        return element.is_displayed()
 

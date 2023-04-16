@@ -7,3 +7,51 @@
 2023-03-30 23:01:15,952 : INFO : <module> : support: {'url': 'https://reqres.in/#support-heading', 'text': 'To keep ReqRes free, contributions towards server costs are appreciated!'}
 2023-03-30 23:01:16,662 : INFO : <module> : email: janet.weaver@reqres.in, url: https://reqres.in/#support-heading, and text: To keep ReqRes free, contributions towards server costs are appreciated!
 2023-03-30 23:01:18,002 : INFO : <module> : 2
+2023-04-04 10:19:43,726 : INFO : <module> : page: 2
+2023-04-04 10:19:43,726 : INFO : <module> : per_page: 6
+2023-04-04 10:19:43,726 : INFO : <module> : total: 12
+2023-04-04 10:19:43,726 : INFO : <module> : total_pages: 2
+2023-04-04 10:19:43,726 : INFO : <module> : data: [{'id': 7, 'email': 'michael.lawson@reqres.in', 'first_name': 'Michael', 'last_name': 'Lawson', 'avatar': 'https://reqres.in/img/faces/7-image.jpg'}, {'id': 8, 'email': 'lindsay.ferguson@reqres.in', 'first_name': 'Lindsay', 'last_name': 'Ferguson', 'avatar': 'https://reqres.in/img/faces/8-image.jpg'}, {'id': 9, 'email': 'tobias.funke@reqres.in', 'first_name': 'Tobias', 'last_name': 'Funke', 'avatar': 'https://reqres.in/img/faces/9-image.jpg'}, {'id': 10, 'email': 'byron.fields@reqres.in', 'first_name': 'Byron', 'last_name': 'Fields', 'avatar': 'https://reqres.in/img/faces/10-image.jpg'}, {'id': 11, 'email': 'george.edwards@reqres.in', 'first_name': 'George', 'last_name': 'Edwards', 'avatar': 'https://reqres.in/img/faces/11-image.jpg'}, {'id': 12, 'email': 'rachel.howell@reqres.in', 'first_name': 'Rachel', 'last_name': 'Howell', 'avatar': 'https://reqres.in/img/faces/12-image.jpg'}]
+2023-04-04 10:19:43,726 : INFO : <module> : support: {'url': 'https://reqres.in/#support-heading', 'text': 'To keep ReqRes free, contributions towards server costs are appreciated!'}
+2023-04-04 10:19:44,253 : INFO : <module> : email: janet.weaver@reqres.in, url: https://reqres.in/#support-heading, and text: To keep ReqRes free, contributions towards server costs are appreciated!
+2023-04-04 10:19:45,027 : INFO : <module> : 2
+2023-04-04 10:20:46,657 : INFO : <module> : page: 2
+2023-04-04 10:20:46,657 : INFO : <module> : per_page: 6
+2023-04-04 10:20:46,657 : INFO : <module> : total: 12
+2023-04-04 10:20:46,657 : INFO : <module> : total_pages: 2
+2023-04-04 10:20:46,657 : INFO : <module> : data: [{'id': 7, 'email': 'michael.lawson@reqres.in', 'first_name': 'Michael', 'last_name': 'Lawson', 'avatar': 'https://reqres.in/img/faces/7-image.jpg'}, {'id': 8, 'email': 'lindsay.ferguson@reqres.in', 'first_name': 'Lindsay', 'last_name': 'Ferguson', 'avatar': 'https://reqres.in/img/faces/8-image.jpg'}, {'id': 9, 'email': 'tobias.funke@reqres.in', 'first_name': 'Tobias', 'last_name': 'Funke', 'avatar': 'https://reqres.in/img/faces/9-image.jpg'}, {'id': 10, 'email': 'byron.fields@reqres.in', 'first_name': 'Byron', 'last_name': 'Fields', 'avatar': 'https://reqres.in/img/faces/10-image.jpg'}, {'id': 11, 'email': 'george.edwards@reqres.in', 'first_name': 'George', 'last_name': 'Edwards', 'avatar': 'https://reqres.in/img/faces/11-image.jpg'}, {'id': 12, 'email': 'rachel.howell@reqres.in', 'first_name': 'Rachel', 'last_name': 'Howell', 'avatar': 'https://reqres.in/img/faces/12-image.jpg'}]
+2023-04-04 10:20:46,657 : INFO : <module> : support: {'url': 'https://reqres.in/#support-heading', 'text': 'To keep ReqRes free, contributions towards server costs are appreciated!'}
+2023-04-04 10:20:46,836 : INFO : <module> : email: janet.weaver@reqres.in, url: https://reqres.in/#support-heading, and text: To keep ReqRes free, contributions towards server costs are appreciated!
+2023-04-04 10:20:47,201 : INFO : <module> : 2
+2023-04-16 22:39:30,592 : INFO : <module> : page: 2
+2023-04-16 22:39:30,592 : INFO : <module> : per_page: 6
+2023-04-16 22:39:30,592 : INFO : <module> : total: 12
+2023-04-16 22:39:30,592 : INFO : <module> : total_pages: 2
+2023-04-16 22:39:30,607 : INFO : <module> : data: [{'id': 7, 'email': 'michael.lawson@reqres.in', 'first_name': 'Michael', 'last_name': 'Lawson', 'avatar': 'https://reqres.in/img/faces/7-image.jpg'}, {'id': 8, 'email': 'lindsay.ferguson@reqres.in', 'first_name': 'Lindsay', 'last_name': 'Ferguson', 'avatar': 'https://reqres.in/img/faces/8-image.jpg'}, {'id': 9, 'email': 'tobias.funke@reqres.in', 'first_name': 'Tobias', 'last_name': 'Funke', 'avatar': 'https://reqres.in/img/faces/9-image.jpg'}, {'id': 10, 'email': 'byron.fields@reqres.in', 'first_name': 'Byron', 'last_name': 'Fields', 'avatar': 'https://reqres.in/img/faces/10-image.jpg'}, {'id': 11, 'email': 'george.edwards@reqres.in', 'first_name': 'George', 'last_name': 'Edwards', 'avatar': 'https://reqres.in/img/faces/11-image.jpg'}, {'id': 12, 'email': 'rachel.howell@reqres.in', 'first_name': 'Rachel', 'last_name': 'Howell', 'avatar': 'https://reqres.in/img/faces/12-image.jpg'}]
+2023-04-16 22:39:30,607 : INFO : <module> : support: {'url': 'https://reqres.in/#support-heading', 'text': 'To keep ReqRes free, contributions towards server costs are appreciated!'}
+2023-04-16 22:39:30,797 : INFO : <module> : email: janet.weaver@reqres.in, url: https://reqres.in/#support-heading, and text: To keep ReqRes free, contributions towards server costs are appreciated!
+2023-04-16 22:39:31,519 : INFO : <module> : 2
+2023-04-16 22:40:50,839 : INFO : <module> : page: 2
+2023-04-16 22:40:50,839 : INFO : <module> : per_page: 6
+2023-04-16 22:40:50,839 : INFO : <module> : total: 12
+2023-04-16 22:40:50,839 : INFO : <module> : total_pages: 2
+2023-04-16 22:40:50,839 : INFO : <module> : data: [{'id': 7, 'email': 'michael.lawson@reqres.in', 'first_name': 'Michael', 'last_name': 'Lawson', 'avatar': 'https://reqres.in/img/faces/7-image.jpg'}, {'id': 8, 'email': 'lindsay.ferguson@reqres.in', 'first_name': 'Lindsay', 'last_name': 'Ferguson', 'avatar': 'https://reqres.in/img/faces/8-image.jpg'}, {'id': 9, 'email': 'tobias.funke@reqres.in', 'first_name': 'Tobias', 'last_name': 'Funke', 'avatar': 'https://reqres.in/img/faces/9-image.jpg'}, {'id': 10, 'email': 'byron.fields@reqres.in', 'first_name': 'Byron', 'last_name': 'Fields', 'avatar': 'https://reqres.in/img/faces/10-image.jpg'}, {'id': 11, 'email': 'george.edwards@reqres.in', 'first_name': 'George', 'last_name': 'Edwards', 'avatar': 'https://reqres.in/img/faces/11-image.jpg'}, {'id': 12, 'email': 'rachel.howell@reqres.in', 'first_name': 'Rachel', 'last_name': 'Howell', 'avatar': 'https://reqres.in/img/faces/12-image.jpg'}]
+2023-04-16 22:40:50,839 : INFO : <module> : support: {'url': 'https://reqres.in/#support-heading', 'text': 'To keep ReqRes free, contributions towards server costs are appreciated!'}
+2023-04-16 22:40:51,076 : INFO : <module> : email: janet.weaver@reqres.in, url: https://reqres.in/#support-heading, and text: To keep ReqRes free, contributions towards server costs are appreciated!
+2023-04-16 22:40:51,834 : INFO : <module> : 2
+2023-04-16 22:45:33,898 : INFO : <module> : page: 2
+2023-04-16 22:45:33,898 : INFO : <module> : per_page: 6
+2023-04-16 22:45:33,898 : INFO : <module> : total: 12
+2023-04-16 22:45:33,898 : INFO : <module> : total_pages: 2
+2023-04-16 22:45:33,898 : INFO : <module> : data: [{'id': 7, 'email': 'michael.lawson@reqres.in', 'first_name': 'Michael', 'last_name': 'Lawson', 'avatar': 'https://reqres.in/img/faces/7-image.jpg'}, {'id': 8, 'email': 'lindsay.ferguson@reqres.in', 'first_name': 'Lindsay', 'last_name': 'Ferguson', 'avatar': 'https://reqres.in/img/faces/8-image.jpg'}, {'id': 9, 'email': 'tobias.funke@reqres.in', 'first_name': 'Tobias', 'last_name': 'Funke', 'avatar': 'https://reqres.in/img/faces/9-image.jpg'}, {'id': 10, 'email': 'byron.fields@reqres.in', 'first_name': 'Byron', 'last_name': 'Fields', 'avatar': 'https://reqres.in/img/faces/10-image.jpg'}, {'id': 11, 'email': 'george.edwards@reqres.in', 'first_name': 'George', 'last_name': 'Edwards', 'avatar': 'https://reqres.in/img/faces/11-image.jpg'}, {'id': 12, 'email': 'rachel.howell@reqres.in', 'first_name': 'Rachel', 'last_name': 'Howell', 'avatar': 'https://reqres.in/img/faces/12-image.jpg'}]
+2023-04-16 22:45:33,898 : INFO : <module> : support: {'url': 'https://reqres.in/#support-heading', 'text': 'To keep ReqRes free, contributions towards server costs are appreciated!'}
+2023-04-16 22:45:34,165 : INFO : <module> : email: janet.weaver@reqres.in, url: https://reqres.in/#support-heading, and text: To keep ReqRes free, contributions towards server costs are appreciated!
+2023-04-16 22:45:34,921 : INFO : <module> : 2
+2023-04-16 22:47:04,348 : INFO : <module> : page: 2
+2023-04-16 22:47:04,348 : INFO : <module> : per_page: 6
+2023-04-16 22:47:04,348 : INFO : <module> : total: 12
+2023-04-16 22:47:04,348 : INFO : <module> : total_pages: 2
+2023-04-16 22:47:04,348 : INFO : <module> : data: [{'id': 7, 'email': 'michael.lawson@reqres.in', 'first_name': 'Michael', 'last_name': 'Lawson', 'avatar': 'https://reqres.in/img/faces/7-image.jpg'}, {'id': 8, 'email': 'lindsay.ferguson@reqres.in', 'first_name': 'Lindsay', 'last_name': 'Ferguson', 'avatar': 'https://reqres.in/img/faces/8-image.jpg'}, {'id': 9, 'email': 'tobias.funke@reqres.in', 'first_name': 'Tobias', 'last_name': 'Funke', 'avatar': 'https://reqres.in/img/faces/9-image.jpg'}, {'id': 10, 'email': 'byron.fields@reqres.in', 'first_name': 'Byron', 'last_name': 'Fields', 'avatar': 'https://reqres.in/img/faces/10-image.jpg'}, {'id': 11, 'email': 'george.edwards@reqres.in', 'first_name': 'George', 'last_name': 'Edwards', 'avatar': 'https://reqres.in/img/faces/11-image.jpg'}, {'id': 12, 'email': 'rachel.howell@reqres.in', 'first_name': 'Rachel', 'last_name': 'Howell', 'avatar': 'https://reqres.in/img/faces/12-image.jpg'}]
+2023-04-16 22:47:04,348 : INFO : <module> : support: {'url': 'https://reqres.in/#support-heading', 'text': 'To keep ReqRes free, contributions towards server costs are appreciated!'}
+2023-04-16 22:47:04,547 : INFO : <module> : email: janet.weaver@reqres.in, url: https://reqres.in/#support-heading, and text: To keep ReqRes free, contributions towards server costs are appreciated!
+2023-04-16 22:47:05,276 : INFO : <module> : 2
